@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Professor T Deyi/ Home</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">  
+    </head>
+
+    <body>
+        
+       <header>
+            <!-- navigation panel -->
+            <nav>
+                <!-- logo -->
+                <a href="My Home Page.html" class="logo">Professor T Deyi</a>
+                <!-- menu nav bars -->
+            <div class="nav-Links" id="navLinks">
+                <img src="images/icon-close.png" class="fa" id="closeMenu">
+                <ul>
+                    <li><a href="My Home Page.html" class="active-nav-link">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <!-- <li><a href="#">PROJECTS</a></li> -->
+                </ul>
+            </div>
+            <img src="images/menuIcon.png" class="fa" id="viewMenu">
+            </nav> 
+        </header>
+        
+    <main>
+        <div class="wrapper">
+            <section class="mainSection">
+                    <!-- developer picture -->
+                    <div class="top-image">
+                        <img src="images/ptdCrop.jpeg" class="modelPic" alt="modelPic">
+                    </div>
+                    <!-- welcome text -->
+                <div class="WelcomeContent">
+                    <div class="welcomeText">
+                        <p>Hello!</p>
+                        <p>Im Professor Deyi</p>
+                        <p>Im a Junior Software Engineer and <br> A Front-End Developer... <a href="About.html">Read More</a></p>
+                    </div>
+                    <!-- call to action -->
+                    <div class="cta">
+                        <!-- <a href="Contact.html" class="contact">Contact Me</a> -->
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--###
+                certifications column
+                                ###-->
+                                
+            <!-- <div class="certifications1">
+                <h3>JavaScript Certified</h3>
+                <img src="images/images.png">
+                <h5><cite>By CodeCademy 2021</cite></h5>
+            </div>
+
+            <div class="certifications2">
+                <h3>HTML & CSS Certified</h3>
+                <img src="images/html&css.jpg">
+                <h5><cite>By CodeCademy 2021</cite></h5>
+            </div> -->
+        </div>
+    </main>
+
+    
+    <!-- skills wrapper -->
+    <section class="skills">
+        <hr>
+        <h2>My Skills</h2>
+        <p>The following are the skills that I have managed to master during my period of Studying and Practicing</p>
+    </section>
+    <section class="teaser-content">
+        <div class="intro">
+            <div class="intro-message">
+                <p>The skills that I have mastered from the beginning until now were acquired through practice, hard work and persistence.
+                <br>Mostly for the key techniques I want to thank My Mentor Mr C Chigoriwa for providing the best guidence ever... <a href="about.html">Read More</a></p>
+            </div>
+            <div class="cover">
+                <img src="images/skills2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- skills content-->
+    <section class="boxes">
+        <div class="box">
+            <img src="images/JavaScript.png" class="skillImage" id="javascript">
+            <h3>JavaScript</h3>
+            <p>
+                I have a full understanding of JavaScript version(ES6) as a 
+                client-side programming language. I can use JavaScript
+                to make pages responsive and produce visual elements of the Web page.
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="images/html.png" class="skillImage" id="html">
+            <h3>HTML5</h3>
+            <p>
+                Iam proficient in the use of the HTML5 markup language.
+                It is essential for structuring web elements and text formating 
+            </p>
+        </div>
+        
+        <div class="box">
+            <img src="images/css.png" class="skillImage" id="css">
+            <h3>CSS3</h3>
+            <p>
+                HTML alone cannot make web pages look visualy good, 
+                so a styling system CSS is essential for making your website presantable and perfect positioning.
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="images/nodeJS.png" class="skillImage" id="node">
+            <h3>NODE.JS</h3>
+            <p>
+                For the server-side programming, I understand and use Node.js 
+                which uses JavaScript formating style and runtime.
+            </p>
+            <div class="moreInfo">
+                <a href="About.html" class="rdmoreBtn">More Info</a>
+            </div>
+        </div>
+    </section>
+    
+<footer>
+    <div class="footer">
+        <hr>
+            <h4>Quickly Get In Touch With Me</h4>
+        <div class="social">
+            <span>
+                <a href="https://www.facebook.com/tendai.profesordeyi"><img class="social-Icon" src="images/fb.png"></a>
+                <p>Proff T Deyi</p>
+            </span>
+            <span>
+                <a href="https://wa.me/qr/OQCBDBROHBVVJ1"><img class="social-Icon" src="images/whatsapp.png"></a>
+                <p>+263 78 295 2450</p>
+            </span>
+            <span>
+                <a href="https://twitter.com/professordeyi"><img class="social-Icon" src="images/twitter (2).png"></a>
+                <p>@professordeyi</p>
+            </span>
+            <span>
+                <a href="."><img class="social-Icon" src="images/call.png"></a>
+                <p>+263 78 295 2450 <br> +263 71 985 9717</p>
+            </span>
+        </div>
+        <p class="copyright">Professor T Deyi &COPY;2021</p>
+    </div>
+        
+</footer>
+
+    <!-- JavaScript Code For Toggle Menu-->
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        const openMenu = document.querySelector("#viewMenu");
+        const closeMenu = document.querySelector("#closeMenu");
+
+        openMenu.addEventListener("click", () =>{
+            navLinks.style.top = "0px";
+        });
+
+        closeMenu.addEventListener("click", () => {
+            navLinks.style.top = "-210px";
+        });
+
+    </script>
+
+
+    </body>
+</html>
