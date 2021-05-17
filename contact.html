@@ -11,17 +11,17 @@
         <link rel="icon" href="images/ptd.ico">
     </head>
 
-<body>
+    <body>
        <header>
             <!-- navigation panel -->
             <nav>
                 <!-- logo -->
-                <a href="My Home Page.html" class="logo">Professor T Deyi</a>
+                <a href="index.html" class="logo">Professor T Deyi</a>
                 <!-- menu nav bars -->
             <div class="nav-Links" id="navLinks">
                 <img src="images/icon-close.png" class="fa" id="closeMenu">
                 <ul>
-                    <li><a href="My Home Page.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="About.html" >ABOUT</a></li>
                     <li><a href="Contact.html" class="active-nav-link">CONTACT</a></li>
                     <!-- <li><a href="#">PROJECTS</a></li> -->
@@ -30,80 +30,63 @@
             <img src="images/menuIcon.png" class="fa" id="viewMenu">
             </nav> 
         </header>
-    <section class="Contact-me">
-        <div class="contact-cover">
-            <h1>Get In Touch</h1>
-        </div>
-    </section>
-
-    <section class="get-in-touch">
-        <h2>
-            I Can Be Reached Through The Following:
-        </h2>
-        <div class="social-media" id="media-query">
-            <div class="social-media-icon">
-                <!-- <h3>LinkedIn</h3> -->
-                <a href="https://www.linkedin.com/in/professor-t-deyi-7992741ba"><img src="images/linkedIn.png"></a>
-                <p>Professor T Deyi</p>
+        <section class="Contact-me">
+            <div class="contact-cover">
+                <h1>Get In Touch</h1>
             </div>
+        </section>
 
-            <div class="social-media-icon">
-                <!-- <h3>Gmail</h3> -->
-                <a href="https://www.gmail.com/login"><img src="images/Gmail.png"></a>
-                <p>profesordeyi@gmail.com</p>
+        <section class="get-in-touch">
+            <h2>
+                I Can Be Reached Through The Following:
+            </h2>
+            <div class="social-media" id="media-query">
+                <div class="social-media-icon">
+                    <!-- <h3>LinkedIn</h3> -->
+                    <a href="https://www.linkedin.com/in/professor-t-deyi-7992741ba"><img src="images/linkedIn.png"></a>
+                    <p>Professor T Deyi</p>
+                </div>
+
+                <div class="social-media-icon">
+                    <!-- <h3>Gmail</h3> -->
+                    <a href="https://www.gmail.com/login"><img src="images/Gmail.png"></a>
+                    <p>profesordeyi@gmail.com</p>
+                </div>
+
+                <div class="social-media-icon">
+                    <!-- <h3>Twitter</h3> -->
+                    <a href="https://twitter.com/professordeyi"><img src="images/twitter (2).png"></a>
+                    <p>@professordeyi</p>
+                </div>
+
+                <div class="social-media-icon">
+                    <!-- <h3>Facebook</h3> -->
+                    <a href="https://www.facebook.com/tendai.profesordeyi"><img src="images/fb.png"></a>
+                    <p>Proff T Deyi</p>
+                </div>
+
+                <div class="social-media-icon">
+                    <!-- <h3>Instagram</h3> -->
+                    <a href="https://www.instagram.com/professor_deyi"><img src="images/insta.png"></a>
+                    <p>@professor_deyi</p>
+                </div>
+
+                <div class="social-media-icon">
+                    <!-- <h3>Call Me</h3> -->
+                    <a href="#"><img src="images/call.png"></a>
+                    <p>+263 78 295 2450</p>
+                </div>
+
             </div>
+        </section>
 
-            <div class="social-media-icon">
-                <!-- <h3>Twitter</h3> -->
-                <a href="https://twitter.com/professordeyi"><img src="images/twitter (2).png"></a>
-                <p>@professordeyi</p>
+        <footer>
+            <div class="footer">
+                <hr>
+                <p class="copyright">Professor T Deyi &COPY;2021</p>
             </div>
-
-            <div class="social-media-icon">
-                <!-- <h3>Facebook</h3> -->
-                <a href="https://www.facebook.com/tendai.profesordeyi"><img src="images/fb.png"></a>
-                <p>Proff T Deyi</p>
-            </div>
-
-            <div class="social-media-icon">
-                <!-- <h3>Instagram</h3> -->
-                <a href="https://www.instagram.com/professor_deyi/"><img src="images/insta.png"></a>
-                <p>@professor_deyi</p>
-            </div>
-
-            <div class="social-media-icon">
-                <!-- <h3>Call Me</h3> -->
-                <a href="#"><img src="images/call.png"></a>
-                <p>+263 78 295 2450</p>
-            </div>
-
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer">
-            <hr>
-            <p class="copyright">Professor T Deyi &COPY;2021</p>
-        </div>
-            
-    </footer>
-
-    <!-- JavaScript Code For Toggle Menu-->
-    <script>
-        const navLinks = document.getElementById("navLinks");
-        const openMenu = document.querySelector("#viewMenu");
-        const closeMenu = document.querySelector("#closeMenu");
-
-        openMenu.addEventListener("click", () =>{
-            navLinks.style.top = "0px";
-        });
-
-        closeMenu.addEventListener("click", () => {
-            navLinks.style.top = "-210px";
-        });
-
-    </script>
-
-
+                
+        </footer>
+        <script src="./app.js"></script>
     </body>
 </html>

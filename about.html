@@ -11,17 +11,17 @@
         <link rel="icon" href="images/ptd.ico">
     </head>
 
-<body>
+    <body>
        <header>
             <!-- navigation panel -->
             <nav>
                 <!-- logo -->
-                <a href="My Home Page.html" class="logo">Professor T Deyi</a>
+                <a href="index.html" class="logo">Professor T Deyi</a>
                 <!-- menu nav bars -->
             <div class="nav-Links" id="navLinks">
-                <img src="images/icon-close.png" class="fa" id="closeMenu">
+                <img src="images/icon-close.png" class="fa" id="closeMenu" style="height: 4vh;">
                 <ul>
-                    <li><a href="My Home Page.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="About.html" class="active-nav-link">ABOUT</a></li>
                     <li><a href="Contact.html">CONTACT</a></li>
                     <!-- <li><a href="#">PROJECTS</a></li> -->
@@ -30,92 +30,75 @@
             <img src="images/menuIcon.png" class="fa" id="viewMenu">
             </nav> 
         </header>
-    <section class="About-me">
-        <div class="about-cover">
-            <h1>About Me</h1>
-        </div>
-    </section>
+        <section class="About-me">
+            <div class="about-cover">
+                <h1>About Me</h1>
+            </div>
+        </section>
 
-    <section class="myself">
-        <p>Im Professor T Deyi, a Junior Software Developer and Front-End Developer. 
-            Im still young in the World of Developing but Im trying Hard to find my way to being A Full-Stack Developer. 
-            Im eager to learn new things, committed to help others, and also contribute to the open projects.</p>
-    </section>
-    <section class="other-skills">
-        <h2>Other Laungages and Skills</h2>
+        <section class="myself">
+            <p>Im Professor T Deyi, a Junior Software Developer and Front-End Developer. 
+                Im still young in the World of Developing but Im trying Hard to find my way to being A Full-Stack Developer. 
+                Im eager to learn new things, committed to help others, and also contribute to the open projects.</p>
+        </section>
+        <section class="other-skills">
+            <h2>Other Laungages and Skills</h2>
 
-        <div class="other-skills-container" id="topskill">
-            <div class="sKill">
-                <p>jQuery</p>
-                <img src="images/jQueryLib.jpg" class="skillPic">
+            <div class="other-skills-container" id="topskill">
+                <div class="sKill">
+                    <p>jQuery</p>
+                    <img src="images/jQueryLib.jpg" class="skillPic">
+                </div>
+
+                <div class="sKill">
+                    <p>DOM</p>
+                    <img src="images/dom.png" class="skillPic">
+                </div>
+
+                <div class="sKill">
+                    <p>C++</p>
+                    <img src="images/cpp_logo.png" class="skillPic">
+                </div>
+
+                <div class="sKill">
+                    <p>Visual Basic.net</p>
+                    <img src="images/vb dot net.png" class="skillPic">
+                </div>
             </div>
 
-            <div class="sKill">
-                <p>DOM</p>
-                <img src="images/dom.png" class="skillPic">
+        </section>
+        <section class="other-skills">
+            <h2>Other Laungages and Frameworks That I`am Going To Learn</h2>
+            <div class="other-skills-container" id="bottomSkill">
+                <div class="sKill">
+                    <p>AngularJS</p>
+                    <img src="images/angular.png" class="skillPic">
+                </div>
+
+                <div class="sKill">
+                    <p>ReactJS</p>
+                    <img src="images/react.png" class="skillPic">
+                </div>
+
+                <div class="sKill">
+                    <p>Bootstrap</p>
+                    <img src="images/bootstrap.png" class="skillPic">
+                </div>
+
+                <div class="sKill">
+                    <p>Express</p>
+                    <img src="images/express-logo.png" class="skillPic">
+                </div>
             </div>
+        </section>
 
-            <div class="sKill">
-                <p>C++</p>
-                <img src="images/cpp_logo.png" class="skillPic">
+        <footer>
+            <div class="footer">
+                <hr>
+                <p class="copyright">Professor T Deyi &COPY;2021</p>
             </div>
-
-            <div class="sKill">
-                <p>Visual Basic.net</p>
-                <img src="images/vb dot net.png" class="skillPic">
-            </div>
-        </div>
-
-    </section>
-    <section class="other-skills">
-        <h2>Other Laungages and Frameworks That I`am Going To Learn</h2>
-        <div class="other-skills-container" id="bottomSkill">
-            <div class="sKill">
-                <p>AngularJS</p>
-                <img src="images/angular.png" class="skillPic">
-            </div>
-
-            <div class="sKill">
-                <p>ReactJS</p>
-                <img src="images/react.png" class="skillPic">
-            </div>
-
-            <div class="sKill">
-                <p>Bootstrap</p>
-                <img src="images/bootstrap.png" class="skillPic">
-            </div>
-
-            <div class="sKill">
-                <p>Express</p>
-                <img src="images/express-logo.png" class="skillPic">
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer">
-            <hr>
-            <p class="copyright">Professor T Deyi &COPY;2021</p>
-        </div>
-            
-    </footer>
-
-    <!-- JavaScript Code For Toggle Menu-->
-    <script>
-        const navLinks = document.getElementById("navLinks");
-        const openMenu = document.querySelector("#viewMenu");
-        const closeMenu = document.querySelector("#closeMenu");
-
-        openMenu.addEventListener("click", () =>{
-            navLinks.style.top = "0px";
-        });
-
-        closeMenu.addEventListener("click", () => {
-            navLinks.style.top = "-210px";
-        });
-
-    </script>
-
-
+                
+        </footer>
+        <script src="./app.js"></script>
     </body>
 </html>
