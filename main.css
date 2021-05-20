@@ -365,6 +365,12 @@ nav .fa{
        flex-direction:column;
        align-items: flex-start;
    }
+   .active-nav-link{
+    border-bottom:none;
+    }
+    nav ul li:hover::after{
+        width:0%;
+    }
     .modelPic{
        height: 80%;
    }
