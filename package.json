@@ -4,7 +4,7 @@
   "description": "This is my portfolio.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d my site"
+    "deploy": "gh-pages -d my_site"
   },
   "keywords": [],
   "author": "Professor T deyi",
