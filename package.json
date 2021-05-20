@@ -2,16 +2,15 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "This is my portfolio.",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d my site"
   },
-  "keywords": [
-    "portfolio",
-    "skills",
-    "programming",
-    "language"
-  ],
+  "keywords": [],
   "author": "Professor T deyi",
-  "license": "ISC"
+  "homepage": "https://ProffTDeyi.github.io/portfolio",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
