@@ -8,7 +8,7 @@
     });
 
     closeMenu.addEventListener("click", () => {
-        navLinks.style.top = "-210px";
+        navLinks.style.top = "-265px";
     });
 
 

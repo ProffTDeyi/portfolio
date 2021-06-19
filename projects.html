@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Projects</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">  
+        <link rel="icon" href="images/ptd.ico">
+    </head>
+ 
+    <body>
+       <header>
+            <!-- navigation panel -->
+            <nav>
+                <!-- logo -->
+                <a href="index.html" class="logo">Professor T Deyi</a>
+                <!-- menu nav bars -->
+            <div class="nav-Links" id="navLinks">
+                <img src="images/icon-close.png" class="fa" id="closeMenu" style="height: 4vh;">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html" >ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="projects.html" class="active-nav-link">PROJECTS</a></li>
+                </ul>
+            </div>
+            <img src="images/menuIcon.png" class="fa" id="viewMenu">
+            </nav> 
+        </header>
+        <div class="projets">
+            <h1> <span class="pr"><span class="p">P</span>rojects </span><span>Coming Soon...</h1>
+        </div>
+        <footer>
+            <div class="footer1">
+                <hr>
+                <p class="copyright">Professor T Deyi &COPY;2021</p>
+            </div>
+                
+        </footer>
+        <script>   
+        
+            const navLinks = document.getElementById("navLinks");
+            const openMenu = document.querySelector("#viewMenu");
+            const closeMenu = document.querySelector("#closeMenu");
+        
+            openMenu.addEventListener("click", () =>{
+                navLinks.style.top = "0px";
+            });
+        
+            closeMenu.addEventListener("click", () => {
+                navLinks.style.top = "-265px";
+            });
+        </script>
+    </body>
+</html>
