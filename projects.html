@@ -44,6 +44,9 @@
             </div>
                 
         </footer>
+
+
+        <!-- #####-----#JavaScript Code#-------##### -->
         <script>   
         
             const navLinks = document.getElementById("navLinks");
@@ -57,6 +60,17 @@
             closeMenu.addEventListener("click", () => {
                 navLinks.style.top = "-265px";
             });
+
+            
+            // <!-- #####-----#JavaScript Code#-------##### -->
+
+            const heart = document.querySelector("#heart");
+           
+                setInterval( randomColorGen = () => {
+                color = ["red", "purple", "white", "skyblue", "cyan", "gray"];
+                const index = Math.floor(Math.random() * color.length);
+                heart.style.color = color[index];
+            }, 1000);
         </script>
     </body>
 </html>
