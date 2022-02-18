@@ -34,8 +34,80 @@
             </nav> 
         </header>
         <div class="projets">
-            <h1> <span class="pr"><span class="p">P</span>rojects </span><span>Coming Soon...</h1>
-            <p class="thanks">Thanks with <i class="fas fa-heart" id="heart"></i></p>
+            <section class="other_projects offset" id="other_projects">
+                <h2>My Recent Projects</h2>
+                <p>Blow are some of my well crafted previous projects</p>
+    
+    
+                <div class="project_wrapper">
+                    <div class="project">
+                        <h3>Professional Portofolio</h3>
+                        <div class="project_img">
+                            <a href="https://profftdeyi.github.io/portfolio/" target="_blank">
+                                <img src="./images/ptdHome.PNG">
+                            </a>
+                            <small> <em> Click to Visit the Site </em></small>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <h3>Simple Calculator</h3>
+                        <div class="project_img">
+                            <a href="https://profftdeyi.github.io/simpleCalculator/" target="_blank">
+                                <img src="./images/simple calculator.PNG">
+                            </a>
+                            <small> <em> Click to Visit the Site </em></small>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <h3> Ocean Sky Perfumes</h3>
+                        <div class="project_img">
+                            <a href="https://oceanskyfrag.netlify.app" target="_blank">
+                                <img src="./images/Ocean Sky Perfumes.png">
+                            </a>
+                            <small> <em> Click to Visit the Site </em></small>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </section>
+            <div class="projets">
+                <section class="other_projects offset" id="other_projects">
+                    <h2>Projects That Im Working On</h2>
+                    <p>Blow are some of the projects that im working on.</p>
+        
+        
+                    <div class="project_wrapper">
+                        <div class="project">
+                            <h3>E-commerce Web App</h3>
+                            <div class="project_img">
+                                    <img src="./images/e-commerce.png">
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="project">
+                            <h3>Weather App</h3>
+                            <div class="project_img">
+                                    <img src="./images/weather_app.jpg">
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="project">
+                            <h3>Movie Streaming App</h3>
+                            <div class="project_img">
+                                    <img src="./images/movie_streaming.jpg">
+                                </a>
+                            </div>
+                        </div>
+    
+        
+                    </div>
+                </section>
+           
         </div>
         <footer>
             <div class="footer1">
@@ -60,17 +132,6 @@
             closeMenu.addEventListener("click", () => {
                 navLinks.style.top = "-265px";
             });
-
-            
-            // <!-- #####-----#JavaScript Code#-------##### -->
-
-            const heart = document.querySelector("#heart");
-           
-                setInterval( randomColorGen = () => {
-                color = ["red", "purple", "white", "skyblue", "cyan", "gray"];
-                const index = Math.floor(Math.random() * color.length);
-                heart.style.color = color[index];
-            }, 1000);
         </script>
     </body>
 </html>
