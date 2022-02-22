@@ -751,5 +751,8 @@ nav .fa{
    .scanqr{
     right: 25%;
 }
+.mainSection{
+   min-height: 70vh;
+}
 
 }
